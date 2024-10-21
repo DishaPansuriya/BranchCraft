@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text ,Button, StyleSheet,Alert} from 'react-native';
 
-const HomeScreen = () => {
+export const HomeScreen = ({ navigation }: ApplicationScreenProps) => {
     return (
         <View style={Style.container}>
             <Text>Welcome to Home Screen</Text>
@@ -22,5 +22,3 @@ const Style = StyleSheet.create({
         backgroundColor:'#f2f2f2'
     }
 })
-
-export default HomeScreen;  
