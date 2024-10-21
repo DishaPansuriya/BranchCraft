@@ -9,7 +9,7 @@ export const HomeScreen = ({ navigation }: ApplicationScreenProps) => {
                 <Text style={styles.textStyle}>Disha</Text>
             </TouchableOpacity>
             <TouchableOpacity onPress={() => navigation.navigate('PratikMode')} style={styles.button}>
-                <Text style={styles.textStyle}>Pratik</Text>
+                <Text style={styles.textStyle}>Pratik </Text>
             </TouchableOpacity>
         </View>
     );
