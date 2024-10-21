@@ -2,14 +2,14 @@ import React from 'react';
 import { View, StyleSheet, TouchableOpacity, Text } from 'react-native';
 import { ApplicationScreenProps } from '../navigation/navigations';
 
-export const HomeScreen = ({ navigation }: ApplicationScreenProps) => {
+const HomeScreen = ({ navigation }: ApplicationScreenProps) => {
     return (
         <View style={styles.container}>
             <TouchableOpacity onPress={() => navigation.navigate('DishaMode')} style={styles.button}>
                 <Text style={styles.textStyle}>Disha</Text>
             </TouchableOpacity>
             <TouchableOpacity onPress={() => navigation.navigate('PratikMode')} style={styles.button}>
-                <Text style={styles.textStyle}>Pratik </Text>
+                <Text style={styles.textStyle}>Pratik</Text>
             </TouchableOpacity>
         </View>
     );
@@ -36,3 +36,4 @@ const styles = StyleSheet.create({
         fontWeight: '400'
     }
 })
+export default HomeScreen

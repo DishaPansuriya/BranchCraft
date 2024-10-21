@@ -1,12 +1,12 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import { HomeScreen } from '../screen/HomeScreen';
-import { DishaModeScreen } from '../screen/DishaModeScreen';
-import { PratikModeScreen } from '../screen/PratikModeScreen';
+import HomeScreen from '../screen/HomeScreen';
+import DishaModeScreen from '../screen/DishaModeScreen';
+import PratikModeScreen from '../screen/PratikModeScreen';
 
 const Stack = createStackNavigator();
 
-export default function MyStack() {
+const MyStack = () => {
     return (
         <Stack.Navigator screenOptions={{ headerShown: false }}>
             <Stack.Screen name="Home" component={HomeScreen} />
@@ -15,3 +15,5 @@ export default function MyStack() {
         </Stack.Navigator>
     );
 }
+
+export default MyStack
