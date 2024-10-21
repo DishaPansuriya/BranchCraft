@@ -1,6 +1,6 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import HomeScreen from '../screen/HomeScreen';
+import { HomeScreen } from '../screen/HomeScreen';
 import { DishaModeScreen } from '../screen/DishaModeScreen';
 import { PratikModeScreen } from '../screen/PratikModeScreen';
 

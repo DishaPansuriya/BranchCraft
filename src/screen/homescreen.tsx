@@ -2,7 +2,7 @@ import React from 'react';
 import { View, StyleSheet, TouchableOpacity, Text } from 'react-native';
 import { ApplicationScreenProps } from '../navigation/navigations';
 
-const HomeScreen = ({ navigation }: ApplicationScreenProps) => {
+export const HomeScreen = ({ navigation }: ApplicationScreenProps) => {
     return (
         <View style={styles.container}>
             <TouchableOpacity onPress={() => navigation.navigate('DishaMode')} style={styles.button}>
@@ -36,4 +36,3 @@ const styles = StyleSheet.create({
         fontWeight: '400'
     }
 })
-export default HomeScreen;
