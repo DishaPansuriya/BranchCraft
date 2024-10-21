@@ -1,7 +1,7 @@
 import { StackScreenProps } from "@react-navigation/stack";
 
 export type ApplicationStackParamList = {
-    homeScreen: undefined;
+    homescreen: undefined;
 }
 
 export type ApplicationScreenProps = 
