@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, Text ,Button, StyleSheet,Alert} from 'react-native';
+import { View, Text, Button, StyleSheet, Alert } from 'react-native';
+import { ApplicationScreenProps } from '../navigation/stack';
 
 export const HomeScreen = ({ navigation }: ApplicationScreenProps) => {
     return (
@@ -8,17 +9,17 @@ export const HomeScreen = ({ navigation }: ApplicationScreenProps) => {
             <Button
                 title="Pratik"
                 onPress={() => Alert.alert(
-                'hello !')}
-                />
+                    'hello !')}
+            />
         </View>
     );
 };
 
 const Style = StyleSheet.create({
-    container:{
-        flex:1,
-        justifyContent:'center',
-        alignItems:'center',
-        backgroundColor:'#f2f2f2'
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: '#f2f2f2'
     }
 })
