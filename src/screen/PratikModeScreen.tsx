@@ -1,9 +1,11 @@
 import { Text, View } from "react-native"
 
-export const PratikModeScreen = () => {
+const PratikModeScreen = () => {
     return (
         <View>
             <Text>Hello World</Text>
         </View>
     )
 }
+
+export default PratikModeScreen

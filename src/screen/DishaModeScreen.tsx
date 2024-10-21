@@ -1,6 +1,6 @@
 import { StyleSheet, View } from "react-native"
 
-export const DishaModeScreen = () => {
+const DishaModeScreen = () => {
     return (
         <View style={styles.container}>
 
@@ -15,3 +15,5 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     }
 })
+
+export default DishaModeScreen
