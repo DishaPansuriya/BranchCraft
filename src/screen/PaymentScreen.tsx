@@ -127,8 +127,7 @@ const PaymentScreen = () => {
 
     const handlePayment = async () => {
         try {
-            await phonepeSDK.init(environment, merchantId, '', true);
-            // await phonepeSDK.init(environment, merchantId, null, true);
+            await phonepeSDK.init(environment, merchantId, null, true);
 
             const transactionId = generateTransactionId();
 
