@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "124420024164",
+    "project_id": "branchcraft-edd97",
+    "storage_bucket": "branchcraft-edd97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124420024164:android:033aa9ae7da4bb63d3fc71",
+        "android_client_info": {
+          "package_name": "com.branchcraft"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBleAm783SA4h1ap__ZQ6GtxnINHNJA2q4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
